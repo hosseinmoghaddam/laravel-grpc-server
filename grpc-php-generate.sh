@@ -1,0 +1,1 @@
+protoc --proto_path=protos --php_out=outputphp --grpc_out=output --plugin=../grpc/cmake/build/protoc-gen-grpc protos/my_service.proto
